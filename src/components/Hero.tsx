@@ -30,7 +30,7 @@ const Hero = () => (
       </p>
 
       <p className="mt-2 text-sm text-text-dim">
-        Submission Date: 10-02-2026 · The Times of India – 6 Feb 2026
+        Submission Date: 10-02-2026
       </p>
     </motion.div>
 
