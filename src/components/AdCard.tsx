@@ -6,6 +6,7 @@ interface AdCardProps {
   brand: string;
   title: string;
   image: string;
+  source: string;
   targetAudience: string;
   message: string;
   visualElements: string;
@@ -19,6 +20,7 @@ const AdCard = ({
   brand,
   title,
   image,
+  source,
   targetAudience,
   message,
   visualElements,
@@ -50,6 +52,11 @@ const AdCard = ({
             {title}
           </h3>
         </div>
+      </div>
+
+      {/* Source */}
+      <div className="border-b border-border bg-muted/50 px-5 py-3">
+        <p className="text-xs text-muted-foreground italic">{source}</p>
       </div>
 
       {/* Analysis */}
