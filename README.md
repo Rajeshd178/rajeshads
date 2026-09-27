@@ -1,73 +1,130 @@
-# Welcome to your Lovable project
+# Rajeshads
 
-## Project info
+A modern portfolio and advertising journal website built with Vite, React, TypeScript, Tailwind CSS, and shadcn/ui.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Live demo: https://rajeshads.vercel.app
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+This project presents a polished marketing and advertising showcase with sections for:
 
-**Use Lovable**
+- Print advertisements
+- Television advertisements
+- Social media campaigns
+- Outdoor advertising concepts
+- Portfolio-style presentation for Rajesh Thami D
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- Vite
+- React 18
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion
+- React Router
+- Vitest
 
-**Use your preferred IDE**
+## Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+.
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── .env.example
+├── .gitignore
+├── README.md
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── vitest.config.ts
+└── tailwind.config.ts
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Prerequisites
 
-Follow these steps:
+Before running this project locally, make sure you have:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js 18+
+- npm or bun
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Local Setup
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Clone the repository
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/Rajeshd178/rajeshads.git
+cd rajeshads
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Create environment file
+
+```bash
+cp .env.example .env
+```
+
+4. Start the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will run on the local Vite port (usually http://localhost:5173).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Environment Variables
 
-**Use GitHub Codespaces**
+Create a `.env` file based on `.env.example`:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+VITE_APP_TITLE=Rajeshads
+VITE_APP_DESCRIPTION=Portfolio and Advertising Journal
+VITE_SITE_URL=https://rajeshads.vercel.app
+```
 
-## What technologies are used for this project?
+## Scripts
 
-This project is built with:
+```bash
+npm run dev
+npm run build
+npm run preview
+npm run test
+npm run lint
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Build and Deployment
 
-## How can I deploy this project?
+To create a production build:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+```bash
+npm run build
+```
 
-## Can I connect a custom domain to my Lovable project?
+This project is configured for Vercel deployment. You can deploy directly from the GitHub repository or through the Vercel dashboard.
 
-Yes, you can!
+## Notes
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This repository was generated with a starter Vite + React + shadcn structure and is currently being adapted into a personal portfolio and marketing showcase.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Future Improvements
+
+- Add real project sections and portfolio details
+- Add contact and social links
+- Add custom animations and motion effects
+- Add CMS or content management support
+- Add SEO metadata and Open Graph tags
+
+## License
+
+This project is currently unlicensed. Add a license if you want to publish it for broader reuse.
