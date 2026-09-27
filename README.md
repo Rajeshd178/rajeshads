@@ -1,18 +1,14 @@
 # Rajeshads
 
-A modern portfolio and advertising journal website built with Vite, React, TypeScript, Tailwind CSS, and shadcn/ui.
-
-Live demo: https://rajeshads.vercel.app
+A modern personal portfolio and advertising showcase built using React, TypeScript, Vite, Tailwind CSS, and shadcn/ui.
 
 ## Overview
 
-This project presents a polished marketing and advertising showcase with sections for:
+Rajeshads is a design-forward portfolio website created to showcase advertising, creative campaigns, portfolio work, and brand storytelling. The project offers a contemporary visual style and a strong presentation layer for personal branding and creative project display.
 
-- Print advertisements
-- Television advertisements
-- Social media campaigns
-- Outdoor advertising concepts
-- Portfolio-style presentation for Rajesh Thami D
+## Live Demo
+
+https://rajeshads.vercel.app
 
 ## Tech Stack
 
@@ -25,10 +21,19 @@ This project presents a polished marketing and advertising showcase with section
 - React Router
 - Vitest
 
+## Features
+
+- Creative portfolio layout
+- Advertising and campaign showcase sections
+- Responsive modern UI
+- Smooth animation and motion effects
+- Portfolio-oriented content architecture
+- Easy to extend with new project entries
+
 ## Project Structure
 
 ```bash
-.
+rajeshads/
 ├── public/
 ├── src/
 │   ├── components/
@@ -37,63 +42,32 @@ This project presents a polished marketing and advertising showcase with section
 │   ├── main.tsx
 │   └── index.css
 ├── .env.example
-├── .gitignore
-├── README.md
 ├── index.html
 ├── package.json
 ├── tsconfig.json
 ├── vite.config.ts
 ├── vitest.config.ts
-└── tailwind.config.ts
+├── tailwind.config.ts
+├── README.md
+└── .gitignore
 ```
 
 ## Prerequisites
 
-Before running this project locally, make sure you have:
-
 - Node.js 18+
 - npm or bun
+- Git
 
 ## Local Setup
-
-1. Clone the repository
 
 ```bash
 git clone https://github.com/Rajeshd178/rajeshads.git
 cd rajeshads
-```
-
-2. Install dependencies
-
-```bash
 npm install
-```
-
-3. Create environment file
-
-```bash
-cp .env.example .env
-```
-
-4. Start the development server
-
-```bash
 npm run dev
 ```
 
-The app will run on the local Vite port (usually http://localhost:5173).
-
-## Environment Variables
-
-Create a `.env` file based on `.env.example`:
-
-```bash
-VITE_APP_TITLE=Rajeshads
-VITE_APP_DESCRIPTION=Portfolio and Advertising Journal
-VITE_SITE_URL=https://rajeshads.vercel.app
-```
-
-## Scripts
+## Available Scripts
 
 ```bash
 npm run dev
@@ -103,28 +77,36 @@ npm run test
 npm run lint
 ```
 
-## Build and Deployment
+## Environment Variables
 
-To create a production build:
+Create a `.env` file if needed:
 
 ```bash
-npm run build
+VITE_APP_TITLE=Rajeshads
+VITE_APP_DESCRIPTION=Portfolio and Advertising Journal
+VITE_SITE_URL=https://rajeshads.vercel.app
 ```
 
-This project is configured for Vercel deployment. You can deploy directly from the GitHub repository or through the Vercel dashboard.
+## Deployment
 
-## Notes
-
-This repository was generated with a starter Vite + React + shadcn structure and is currently being adapted into a personal portfolio and marketing showcase.
+This project is configured for Vercel deployment and can be published directly from GitHub or the Vercel dashboard.
 
 ## Future Improvements
 
-- Add real project sections and portfolio details
-- Add contact and social links
-- Add custom animations and motion effects
-- Add CMS or content management support
-- Add SEO metadata and Open Graph tags
+- Add real project details and case studies
+- Add contact and social sections
+- Improve SEO and metadata
+- Add CMS-style content management
+- Expand brand and portfolio sections
+- Add custom animations and interactive storytelling
 
 ## License
 
-This project is currently unlicensed. Add a license if you want to publish it for broader reuse.
+This project does not currently include a license. Add one if you want to publish it more formally.
+
+## Author
+
+Rajesh D
+
+- GitHub: @Rajeshd178
+- Portfolio: https://rajeshads.vercel.app
